@@ -1,0 +1,26 @@
+{
+   "name": "jwt-express-typeorm",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "chalk": "^4.1.2",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "body-parser": "^1.18.1",
+      "config": "^3.3.6",
+      "dotenv": "^10.0.0",
+      "env": "^0.0.2",
+      "express": "^4.15.4",
+      "morgan": "^1.10.0",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.32"
+   },
+   "scripts": {
+      "dev": "ts-node --rs --inspect --transpile-only --ignore-watch node_modules index.ts",
+      "start": "ts-node index.ts"
+   }
+}
